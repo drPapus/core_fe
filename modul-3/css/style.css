@@ -1,0 +1,18 @@
+#wrapper {
+    margin:240px auto;
+    width: 482px;
+    height: 1200px;
+    background-color: rgba(137, 43, 226, 0.35); 
+}
+
+.caption {
+    text-transform: uppercase;
+    color: #556481;
+    background-color: rgba(175, 255, 47, 0.53);
+    padding: 67px 0 30px 40px;
+}
+.banner {
+    display: block;
+    margin: 0 auto;
+}
+
