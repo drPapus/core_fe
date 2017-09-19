@@ -59,5 +59,9 @@ body {
     font-family: 'Pathway Gothic One', sans-serif;   
     font-size: 31.6px;
     text-transform: uppercase;
-    margin: 115px 56px;
+    margin: 115px 0 0 56px;
+}
+
+.article-photo {
+ 
 }
