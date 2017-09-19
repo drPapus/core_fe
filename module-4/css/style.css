@@ -1,0 +1,20 @@
+body {
+    background: #ffffff url("../img/bg.png") no-repeat;
+    width: 1920px;
+    opacity: 0.2;
+}
+
+#wrapper{
+    background-color: #a0e5e2;
+    height: 1430px;
+    margin: 230px auto;
+    width: 1024px;
+
+}
+
+.content-box-1, .content-box-2, .content-box-3, .content-box-4 {
+    background-color: grey;
+    margin: 10px;
+    height: 100px;
+    width: 100px;
+}

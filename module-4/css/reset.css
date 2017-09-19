@@ -8,10 +8,10 @@ font: 13px/16px Arial , sans-serif;
 code, kbd, pre, samp, tt, var {
 font: 14px/18px Consolas, "Courier New", monospace;
 }
-body, optgroup {
+/*body, optgroup {
 color: #000;
 background: #fff;
-}
+}*/
 body, code, dl, dd, form, pre {
 margin: 0;
 }
