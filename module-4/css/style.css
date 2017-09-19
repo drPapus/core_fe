@@ -14,24 +14,43 @@ body {
 
 }
 
-.block-1, .block-2 {
+.block-upr, .block-dwn {
     background-color: rgba(255, 0, 0, 0.43);
 }
 
     /*content-boxes*/
 
-.content-box-1, .content-box-2, .content-box-3, .content-box-4 {
+.content-box-1 {
     background-color: grey;
-    margin: 10px;
+    margin: 5px;
+    height: 500px;
+    width: 500px;
+}
+.content-box-2 {
+    background-color: grey;
+    margin: 5px;
     height: 500px;
     width: 500px;
 }
 
-.content-box-1 {
-
+.content-box-3 {
+    background-color: grey;
+    margin: 5px;
+    height: 500px;
+    width: 500px;
 }
-.content-box-2 {
- 
+
+.content-box-4 {
+    background-color: grey;
+    margin: 5px;
+    height: 500px;
+    width: 500px;
+}
+
+
+.column {
+    display: inline-block;
+    vertical-align: bottom
 }
 
     /*content-boxes*/
