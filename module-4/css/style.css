@@ -24,27 +24,27 @@ body {
     background-color: grey;
     margin: 5px;
     height: 500px;
-    width: 500px;
+    width: 70%;
 }
 .content-box-2 {
     background-color: grey;
     margin: 5px;
     height: 500px;
-    width: 500px;
+    width: 27%;
 }
 
 .content-box-3 {
     background-color: grey;
     margin: 5px;
     height: 500px;
-    width: 500px;
+    width: 70%;
 }
 
 .content-box-4 {
     background-color: grey;
     margin: 5px;
     height: 500px;
-    width: 500px;
+    width: 27%;
 }
 
 
@@ -57,7 +57,7 @@ body {
 
 .caption {
     font-family: 'Pathway Gothic One', sans-serif;   
-    font-size: 25px;
+    font-size: 31.6px;
     text-transform: uppercase;
-    color: #556481;
+    margin: 115px 56px;
 }
