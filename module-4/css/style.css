@@ -70,7 +70,11 @@ body {
 
 .article-box-1 {
     display: block;
-    margin: 53px 18px 10px 56px;
-    font-size: 13px;
+    margin: 13px 18px 10px 56px;
+}
 
+.selected-text, li {
+    font-size: 15px;
+    color:#344260;
+    margin-top: 53px;
 }
