@@ -22,28 +22,28 @@ body {
 
 .content-box-1 {
     background-color: grey;
+    height: 650px;
     margin: 5px;
-    height: 500px;
     width: 70%;
 }
 .content-box-2 {
     background-color: grey;
     margin: 5px;
-    height: 500px;
+    height: 650px;
     width: 27%;
 }
 
 .content-box-3 {
     background-color: grey;
     margin: 5px;
-    height: 500px;
+    height: 627px;
     width: 70%;
 }
 
 .content-box-4 {
     background-color: grey;
     margin: 5px;
-    height: 500px;
+    height: 627px;
     width: 27%;
 }
 
@@ -60,8 +60,17 @@ body {
     font-size: 31.6px;
     text-transform: uppercase;
     margin: 115px 0 0 56px;
+    color: #263555;
 }
 
 .article-photo {
- 
+    margin: 53px 25px 18px 56px;
+    float: left;
+    }
+
+.article-box-1 {
+    display: block;
+    margin: 53px 18px 10px 56px;
+    font-size: 13px;
+
 }
