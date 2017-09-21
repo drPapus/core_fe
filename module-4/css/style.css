@@ -103,3 +103,35 @@ li{
     margin-bottom: 24px;
     list-style-image: url(../img/arrow.png);
 }
+
+.content-box-2 h1 {
+    margin-left: 16px;
+    margin-bottom: 40px;
+}
+
+.rt-upper-col {
+    margin: 5px 0 0 15px;
+    border: solid 2px;
+    width:240px;
+    height: 140px;
+}
+
+.circle {
+    float: left;
+    margin-top: 10px;
+    background-color: #38afe5 ;
+    height: 28px;
+    width: 28px;
+    display:block;
+    border-radius:50px;
+    -moz-border-radius:50px;
+    -webkit-border-radius:50px;
+    -khtml-border-radius:50px;
+    border: 1px solid #77a7bd;
+    text-align: center;
+    font-size: 16px; color:white;
+}
+
+.circle p {
+    margin-top:5px;
+}
