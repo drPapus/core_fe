@@ -147,4 +147,10 @@ li{
     margin-left: 16px;
     margin-top: 48px;
 }
+.line {
+    margin-left: 62px;
+    margin-right: 62px;
+    height: 1px;
+    background-color: #dedbdb;
 
+}
