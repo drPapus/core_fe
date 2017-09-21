@@ -75,11 +75,31 @@ body {
 
 .article-box-1 {
     display: block;
-    margin: 13px 0 10px 56px;
+    margin: 13px 20px 10px 56px;
 }
 
-.selected-text, li {
+.selected-text {
     font-size: 15px;
     color:#344260;
     margin-top: 53px;
+}
+.content-box-3 .selected-text {
+    background-color: yellow;
+    margin:70px 20px 0 56px;
+}
+
+.list-box1 {
+    float:left;
+    margin-left: 80px;
+    margin-top: 20px;
+}
+.list-box2 {
+    margin-right: 250px;
+    margin-top: 20px;
+    float: right; 
+}
+
+li{
+    margin-bottom: 24px;
+    list-style-image: url(../img/arrow.png);
 }
