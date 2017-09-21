@@ -144,8 +144,7 @@ li{
 }
 
 .content-box-4 h1 {
-    margin-left: 16px;
-    margin-top: 48px;
+    margin: 48px 0 29px 16px;
 }
 .line {
     margin-left: 62px;
@@ -153,4 +152,17 @@ li{
     height: 1px;
     background-color: #dedbdb;
 
+}
+
+.rt-dwn-col {
+    margin: 5px 0 0 15px;
+    width:210px;
+    height: 220px;
+    border: solid 1px black;
+}
+
+#footer {
+    background-color:#30455b;
+    height: 131px;
+    width: 1024px;
 }
