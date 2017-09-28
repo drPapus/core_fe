@@ -1,16 +1,16 @@
 @import url('https://fonts.googleapis.com/css?family=Pathway+Gothic+One');
-/*
+
 body {
-    background: #ffffff url("../img/bg.png") no-repeat;
-    width: 1920px;
-    opacity: 0.5;
+    background: #ffffff url("../img/page-bg.png") no-repeat;
 }
-*/
+header{
+    margin-top: 230px;
+}
 
 #wrapper{
-    height: 1430px;
-    margin: 230px auto;
+    margin: 0 auto;
     width: 1024px;
+    background-color: #fff;
 }
     /*content-boxes*/
 
@@ -213,7 +213,7 @@ li{
 
 #footer {
     background-color:#30455b;
-    height: 131px;
+    height: 132px;
     width: 1024px;
 }
 
