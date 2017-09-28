@@ -169,10 +169,12 @@ li{
 
 .quote::before {
     content: '"';
+    margin: 4px;
 }
 
 .quote::after {
     content: '"';
+    margin: 4px;
 }
 
 
