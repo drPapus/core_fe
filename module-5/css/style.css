@@ -43,7 +43,10 @@ header{
     color:#263555;
     font-size: 60px;
     text-decoration: none;
+}
 
+#logo a:hover{
+    box-shadow: 0 0 10px rgba(0,0,0,0.5); 
 }
 
 #logo p {
@@ -53,19 +56,23 @@ header{
 nav {
     padding: 92px 97px 0;
     font-family: 'Pathway Gothic One', sans-serif;  
-    font-size: 20px;
-
+    font-size: 29px;
+    text-transform: uppercase;
 }
 
-ul{
+
+
+ul {
     list-style: none;
 }
 
 .left_li {
     float: left;
+    margin: 5px 56px 5px 0;
 }
 .right_li {
     float: right;
+    margin: 5px 0 5px 54px;
 }
 
 
