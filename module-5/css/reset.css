@@ -16,16 +16,17 @@ body, code, dl, dd, form, pre {
 margin: 0;
 }
 a:link {
-color: #009;
+color: #fff;
 }
 a:link, a:visited, ins {
 text-decoration: none;
 }
 a:visited {
-color: #505;
+color: #060424;
 }
 a:hover {
-text-decoration: underline;
+text-decoration: none;
+color: #263555;
 }
 a:link img, a:visited img, object, fieldset, abbr, acronym {
 border: none;
