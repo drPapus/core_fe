@@ -58,7 +58,7 @@ header{
 
 
 .menu {
-    padding: 81px 120px 0 92px;
+    padding: 86px 120px 0 92px;
     width: 100%;
     height: 60px;
     box-sizing: border-box;
@@ -77,19 +77,25 @@ header{
 .submenu_item > a {
   display: block;
   text-decoration: none;
-  line-height: 40px;
+  line-height: 30px;
 }
 
 .submenu_item>a { 
     width: 57px;
+    height: 27px;
 } 
 .menu_item>a {
      width: 57px;
+     margin-bottom: 10px;
 }
 
 .menu_item>a:hover {
    color: grey;
 }
+.submenu_item>a:link {
+    color: #5E5757
+}
+
 .submenu_item>a:hover {
   color: grey;
 }
@@ -160,17 +166,74 @@ main {
 }
 
 .slider {
-    margin-left: 54px;
-    margin-top: 49px;
+    margin-left: 53px;
+    margin-top: 51px;
 }
+
+.block_up, .block_dwn {
+    font-family: 'Pathway Gothic One', sans-serif;
+    text-transform: uppercase;
+    position: absolute; 
+    text-align: center;
+    line-height: 58px;
+    opacity: 0.5;   
+}
+
+.block_up {
+    background-color: white;
+    font-size: 23px;
+    height: 60px;
+    left: 247px;
+    top: 528px;
+    width: 224px;
+}
+.block_dwn {
+    background-color: #38afe5;
+    color: white;
+    font-size: 34px;
+    height: 60px;
+    left: 247px;
+    top: 588px;
+    width: 278px;
+}
+.circle {
+    position: absolute;
+    float: left;
+    background-color: #38afe5 ;
+    height: 90px;
+    width: 90px;
+    display:block;
+    border-radius:50px;
+    -moz-border-radius:50px;
+    -webkit-border-radius:50px;
+    -khtml-border-radius:50px;
+    text-align: center;
+    font-size: 16px; color:white;
+    left: 283px;
+    top: 761px;
+}
+.circle::before, .circle::after {
+    position: relative;
+    top:36px;
+    margin: 7px;
+}
+.circle::before{
+    content: url(../img/left-arrow.png);
+ 
+}
+.circle::after {
+    content: url(../img/right-arrow.png);
+}
+
 
 
 .caption {
     font-family: 'Pathway Gothic One', sans-serif;   
-    font-size: 31.6px;
+    font-size: 31px;
     text-transform: uppercase;
-    margin: 115px 0 0 56px;
     color: #263555;
+    margin-left: 61px;
+    margin-top: 51px;
 }
 
 #footer {
