@@ -1,0 +1,245 @@
+@import url('https://fonts.googleapis.com/css?family=Pathway+Gothic+One');
+@import url('https://fonts.googleapis.com/css?family=Dorsa');
+
+ul {
+    list-style: none;
+}
+
+body {
+    background: url("../img/bg.png") no-repeat;
+}
+
+header{
+    height: 230px;
+    width: 1024px;
+    top: 0;
+    position: fixed;
+}
+
+#wrapper{
+    width: 1024px;
+    height: 1742px;
+    margin: 0 auto;
+    margin-top:240px;
+}
+
+#logo a{
+    display: block;
+    width:140px;
+    height: 140px;  
+    background-color: #ffffff;
+    position: absolute;
+    left: 43.25%; 
+    top: 62px;
+    border-radius: 70px;
+    font-family: 'Dorsa', sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    color:#263555;
+    font-size: 59px;
+    text-decoration: none;
+}
+
+#logo a:hover{
+    box-shadow: 0 0 10px rgba(0,0,0,0.5); 
+}
+
+#logo p {
+    margin-top: 62px;
+}
+
+
+.menu {
+    padding: 86px 120px 0 92px;
+    width: 100%;
+    height: 60px;
+    box-sizing: border-box;
+    font-family: 'Pathway Gothic One', sans-serif;  
+    font-size: 29px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.menu_item {
+    position: relative;
+    display: inline-block;
+}
+
+.menu_item > a,
+.submenu_item > a {
+  display: block;
+  text-decoration: none;
+  line-height: 30px;
+}
+
+.submenu_item>a { 
+    width: 57px;
+    height: 27px;
+} 
+.menu_item>a {
+     width: 57px;
+     margin-bottom: 10px;
+}
+
+.menu_item>a:hover {
+   color: grey;
+}
+.submenu_item>a:link {
+    color: #5E5757
+}
+
+.submenu_item>a:hover {
+  color: grey;
+}
+
+.submenu {
+  display: none;
+  position: absolute;
+  left: -5px;
+  list-style: none;
+  padding: 0px 5px;
+  border-radius: 5px;
+  color: grey;
+}
+
+.submenu a {
+    font-size: 20px;
+}
+
+
+.menu_item:hover>.submenu {
+  display: block;
+  background: #FFFFFF;
+}
+
+.submenu_item {
+  text-align: center;
+}
+
+
+
+.submenu::after, .submenu::before {
+    bottom: 100%;
+	left: 50%;
+	border: solid transparent;
+	content: " ";
+	height: 0;
+	width: 0;
+	position: absolute;
+	pointer-events: none;
+}
+
+.submenu::after {
+	border-color: rgba(136, 183, 213, 0);
+	border-bottom-color: #FFFFFF;
+	border-width: 3px;
+	margin-left: -3px;
+}
+.submenu::before {
+	border-color: rgba(194, 225, 245, 0);
+	border-bottom-color: #FFFFFF;
+	border-width: 3px;
+	margin-left: -3px;
+}
+
+.left_li {
+    float: left;
+    margin: 5px 53px 5px 2px;
+}
+.right_li {
+    float: right;
+    margin: 5px 3px 5px 45px;
+}
+
+main {
+    width:1024px;
+    background-color: #ffffff;
+    height: 1742px;
+    box-sizing: border-box;
+    padding-top: 53px;
+}
+
+.block {
+    width: 902px;
+    margin: 0 auto;
+}
+
+.block_up, .block_dwn {
+    font-family: 'Pathway Gothic One', sans-serif;
+    text-transform: uppercase;
+    position: absolute; 
+    text-align: center;
+    line-height: 58px;
+    opacity: 0.5;   
+}
+
+.block_up {
+    background-color: white;
+    font-size: 23px;
+    height: 60px;
+    top: 528px;
+    width: 224px;
+}
+.block_dwn {
+    background-color: #38afe5;
+    color: white;
+    font-size: 34px;
+    height: 60px;
+    top: 588px;
+    width: 278px;
+}
+.circle {
+    position: absolute;
+    float: left;
+    background-color: #38afe5 ;
+    height: 90px;
+    width: 90px;
+    display:block;
+    border-radius:50px;
+    -moz-border-radius:50px;
+    -webkit-border-radius:50px;
+    -khtml-border-radius:50px;
+    text-align: center;
+    font-size: 16px; color:white;
+    left: 283px;
+    top: 761px;
+}
+.circle::before, .circle::after {
+    position: relative;
+    top:36px;
+    margin: 7px;
+}
+.circle::before{
+    content: url(../img/left-arrow.png);
+ 
+}
+.circle::after {
+    content: url(../img/right-arrow.png);
+}
+
+.top_news_container {
+    display: inline-flex;
+   margin: 0 auto;
+}
+
+.box {
+    margin-right: 16px;
+}
+
+.caption {
+    font-family: 'Pathway Gothic One', sans-serif;   
+    font-size: 31px;
+    text-transform: uppercase;
+    color: #263555;
+    margin-top: 54px;
+    margin-left: 62px;
+    margin-bottom: 53px;
+}
+
+footer {
+    background-color:#30455b;
+    height: 132px;
+    width: 1024px;
+}
+
+  
