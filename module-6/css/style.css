@@ -3,13 +3,12 @@
 
 ul {
     list-style: none;
+  
 }
 
-a {
+a, h1 {
     font-family: 'Pathway Gothic One', sans-serif;
-    font-size: 29px;
     text-transform: uppercase;
-    text-align: center; 
 }
 
 body {
@@ -39,32 +38,68 @@ header{
     text-align: center;
     color:#263555;
     font-size: 59px;
-    text-decoration: none;
     margin-top: 50px;
+    margin-left: 8px;
 }
 
 header ul {
     display: flex;
     justify-content: space-around;
-    width: 87%;
-    margin-left: 70px;
+    width: 86.5%;
+    margin: 0 auto;
    
 }
 
 header li {
-
+    display: block;
 }
 
 header li a{
+    font-size: 29px;
     line-height: 231px;
-    margin-left: 2px;
-
+    margin-left: 10px;
+    margin-right: 5px;
+   
 }
 
 main {
     border: 1px solid red;
-    height: 2000px;
+    height: 1700px;
+    display: flex;
+}
+
+.container-left{
+    flex: 2.5;
+    background-color: greenyellow;
+    padding-left: 60px;
+ }
+.container-right{
+    flex: 1;
+    background-color: rgb(91, 148, 145);
 }
 
 
-  
+.aside{
+    height: 26%;
+    width: 72%;
+    background-color: greenyellow;
+    border: 2px solid black;
+}
+.line {
+    height: 1px;
+    margin-left: 61px;
+    margin-right: 61px;
+    position: relative;
+    background-color: #dedbdb;
+
+}
+
+.block_caption {
+    margin-top: 99px;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #263555;
+}
+
+
+
