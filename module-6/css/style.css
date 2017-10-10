@@ -176,11 +176,11 @@ main {
 }
 
 .block_date {
-    background-color:rgb(78, 68, 68);
     height: 2%;
     width: 95%;
+    margin-top: 48px;
 }
-.block_date p:first-child {
+.date p:first-child {
     padding-top: 8px;
 }
 
@@ -195,13 +195,18 @@ main {
     font-family: Arial, sans-serif;  
     line-height: 0.9em;
     float: left;
+    margin-right: 8px;
+    margin-top: 2px;
 }
 
-.article_title {
+.article_title p {
     text-transform: uppercase;
     font-family: Arial, sans-serif;
-    vertical-align: top;
-
+    font-size: 15px;
+    letter-spacing: -1pt;
+}
+.poster {
+    display: flex;
 }
 
 
