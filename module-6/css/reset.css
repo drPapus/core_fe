@@ -12,7 +12,7 @@ font: 14px/18px Consolas, "Courier New", monospace;
 color: #000;
 background: #fff;
 }*/
-body, code, dl, dd, form, pre {
+body, code, dl, dd, pre {
 margin: 0;
 }
 a:link {
