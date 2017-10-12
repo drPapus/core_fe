@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Pathway+Gothic+One');
 @import url('https://fonts.googleapis.com/css?family=Dorsa');
-
+@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300');
 ul {
     list-style: none;
 }
@@ -297,13 +297,94 @@ footer {
 }
 
 .prefooter{
+    height: 46%;
+    width: 100%;
     background-color: #30455b;
-    height: 133px;
-    display: flex;
+    font-family: 'Open Sans Condensed', sans-serif;
+    text-transform: uppercase;
+    color: white;
+    font-size: 16px;
+    line-height: 28px;
+}
+.footer_container1 {
+    height: 46%;
+    width: 76%;
+    margin: 0 auto;   
 }
 .block {
-    flex:1;
+    float: left;
+    margin-right: 93px;
 }
+.pref-text>p:first-child {
+    margin-top: 35px;
+    margin-left: 17px;
+}
+.pref-text>p:nth-child(2) {
+    margin-left: 17px;
+}
+.pref-text {
+    width: 100px;
+    height: 100px;
+}
+.fone, .mail {
+    text-transform: none;
+    font-family: none;
+    font-size: 11px;
+    position: relative;
+    left: 25px;
+    bottom: 34px;
+}
+.mail {
+    left: -2px;
+    bottom: 44px;
+}
+
+.basement {
+    width: 100%;
+    height: 54%;
+    color:white;
+}
+.social {
+    padding-left: 92px;
+    padding-top: 27px;
+    margin: 0 auto;
+    width: 28%;
+    height: 30%;
+}
+.icon {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    vertical-align: bottom;
+    background: url("../img/socialTabs.png") no-repeat;
+    border-radius: 50px;
+    margin-right: 8.5px;
+}
+.icon:hover {
+    box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.658);
+}
+
+.tw {
+    background-position: 0px;
+}
+.fb{
+    background-position: -52px;
+}
+.gg {
+    background-position: -106px;
+}
+.ld {
+    background-position: -158px;
+}
+
+.basement p {
+    text-align: center;
+    margin-top: 15px;
+    margin-right: 26px;
+}
+
+
+
 
 
 
