@@ -383,6 +383,40 @@ footer {
     margin-right: 26px;
 }
 
+/* gallery style */
+.main_gallery {
+    background-color: white;
+    height: 850px;
+    padding-top: 1px;
+}
+
+.block_caption_gr {
+    margin-left: 59px;
+    margin-top: 100px; 
+    margin-bottom: 51px; 
+}
+
+.img_box {
+    width: 288px;
+    height: 155px;
+    margin-left: 19px;
+    
+}
+.img_box:hover {
+    -webkit-filter: brightness(50%);
+    background-image: url();
+}
+
+.container_gallery {
+    display: flex;
+    flex-direction: row;
+    margin-left: 42px;
+    width: 91%;
+    height: 69%;
+}
+ .wrap {
+     flex-wrap: wrap;  
+ }
 
 
 
