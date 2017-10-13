@@ -75,7 +75,7 @@ header li a{
 } 
 
 .menu_item>a:hover {
-   color: grey;
+   color: #263555;
 }
 .submenu_item>a:link {
     color: #5E5757
