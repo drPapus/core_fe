@@ -141,13 +141,10 @@ main {
 .container-left{
     flex: 2.5;
     padding-left: 61px;
-    background-color: grey;
     margin-bottom: 168px;
  }
 .container-right{
     flex: 1;
-    background-color: rgb(168, 93, 93);
-    margin-bottom: 168px;
 }
 
 .container-left, .container-right {
@@ -257,9 +254,6 @@ form {
     height: 38%;
     margin-bottom: 17.5%;
 }
-.bottom_left {
-
-}
 
 .box1 p {
     margin-left: 3px;
@@ -295,7 +289,7 @@ form {
 }
 
 footer {
-    height: 287px;
+    height: 255px;
     width: 100%;
 }
 
@@ -446,6 +440,131 @@ footer {
     float: left;
     margin-top: 17px;
 }
+
+.list-box1 {
+    float: left;
+    margin-left: 73px;
+    margin-top: 18px;
+}
+.list-box2 {
+    float: right;
+    margin-right: 257px;
+    margin-top: 19px;
+}
+
+.list_about li{
+    margin-bottom: 24px;
+    list-style-image: url(../img/arrow.png);
+}
+
+.rt-upper-col {
+    margin: 5px 0 0 15px;
+    width:240px;
+    height: 140px;
+}
+
+.circle {
+    float: left;
+    margin-top: 3px;
+    margin-left: 2px;
+    background-color: #38afe5 ;
+    height: 26px;
+    width: 26px;
+    display:block;
+    border-radius:50px;
+    -moz-border-radius:50px;
+    -webkit-border-radius:50px;
+    -khtml-border-radius:50px;
+    border: 1px solid #77a7bd;
+    text-align: center;
+    font-size: 16px; color:white;
+}
+
+.circle p {
+    margin-top: 5px;
+}
+
+.rt-col-box h2 {
+    margin: 9px 39px;
+}
+
+.rt-col-box p {
+    margin: 0 39px 0 39px;
+}
+
+.content-box-4 h1 {
+    margin-top: 110px;
+}
+
+.main_about {
+    height: 1300px;
+}
+
+.rt-dwn-col {
+    margin: 10px 0px -15px 3px;
+    width:210px;
+    height: 190px;
+    border: solid 1px #dfdcdc;
+    background-color:#fcfafa ;
+    border-radius: 5px;
+}
+
+.quote{
+    display: block;
+    position: absolute;
+    width: 180px;
+    height: 150px;
+    padding: 35px;
+    font-family: Arial;
+    margin: initial;
+    text-align: center;
+    left: 896px;
+}
+
+.quote::before {
+    content: '"';
+    margin: 4px;
+}
+
+.quote::after {
+    content: '"';
+    margin: 4px;
+}
+
+
+
+.rt-dwn-col::before, .rt-dwn-col::after {
+    content: '';
+    border:20px solid transparent;
+    border-top:12px solid rgb(223, 220, 220);
+    position: relative;
+    left: 86px;
+    position: relative;
+    top: 216px;
+    border-width: 26px 19px;
+}
+.rt-dwn-col::after {
+    border-top: 28px solid #fcfafa;
+    left: 48px;
+    top: 215px;
+}
+
+.person {
+    width: 200px;
+    height: 100px;
+    margin:60px 20px;
+    text-align: center;
+}
+.person>.selected-text{
+    font-size: 17px;
+}
+
+.person>p {
+    margin-top: 15px;
+}
+
+
+
 
 
 
