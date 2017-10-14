@@ -135,16 +135,19 @@ header li a{
 
 main {
     background-color: white;
-    height: 969px;
     display: flex;
 }
 
 .container-left{
     flex: 2.5;
     padding-left: 61px;
+    background-color: grey;
+    margin-bottom: 168px;
  }
 .container-right{
     flex: 1;
+    background-color: rgb(168, 93, 93);
+    margin-bottom: 168px;
 }
 
 .container-left, .container-right {
@@ -362,6 +365,7 @@ footer {
 }
 .icon:hover {
     box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.658);
+    -webkit-filter: brightness(50%);
 }
 
 .tw {
@@ -397,14 +401,14 @@ footer {
 }
 
 .img_box {
+    display: block;
     width: 288px;
     height: 155px;
-    margin-left: 19px;
-    
+    margin-left: 19px; 
 }
+
 .img_box:hover {
     -webkit-filter: brightness(50%);
-    background-image: url();
 }
 
 .container_gallery {
@@ -417,6 +421,33 @@ footer {
  .wrap {
      flex-wrap: wrap;  
  }
+
+ /* about */
+ .tp_lft_about  {
+    height: 45%;
+ }
+
+.line_about {
+    width: 870px;
+    position: absolute;
+}
+.article-box-1 {
+    display: block;
+    margin-top: 31px;
+}
+.selected-text {
+    font-size: 15px;
+    color:#344260;
+    margin-top: 53px;
+}
+
+.article-photo {
+    margin: 53px 25px 18px 0;
+    float: left;
+    margin-top: 17px;
+}
+
+
 
 
 
