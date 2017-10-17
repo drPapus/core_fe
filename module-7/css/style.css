@@ -551,23 +551,34 @@ footer {
 .contact_container{
     background-color: white;
     display: flex;
+    justify-content:space-around;
 }
 .cc_box {
-    height: 500px;
+    height: 717px;
 }
 
 .left_box {
-    flex:3;
+    flex:1.45;
     background-color: rgba(0, 128, 0, 0.507);
 }
  .middle_box {
-    flex:1;
+    flex:0.65;
     background-color: rgba(128, 15, 0, 0.507);
 }
 
 .right_box {
-    flex:1;
+    flex:0.8;
     background-color: rgba(119, 128, 0, 0.507);
+}
+
+.contact_container .block_caption {
+    margin-top: 101px;
+    margin-left: 58px;
+}
+
+.map {
+    margin-left: 61px;
+    margin-top: 55px;
 }
 
 
