@@ -17,10 +17,9 @@ body {
 #wrapper {
     margin: 0 auto;
     width: 75.5%;
-    height: 100%;
 }
 header{
-    height: 240px;
+    margin-bottom: 95px;
 }
 #logo a{
     line-height: 139px;
@@ -44,7 +43,7 @@ header{
 
 .block-menu {
     position: relative;
-    top: 102px;
+    top: 96px;
     left: 71px;
 }
 
@@ -135,21 +134,21 @@ header li a{
 
 main {
     background-color: white;
-    display: flex;
 }
+
 
 .container-left{
     flex: 2.5;
-    padding-left: 61px;
-    margin-bottom: 168px;
+    margin-bottom: 46px;  
+    padding-left: 61px;  
+    margin-top: 60px;
  }
 .container-right{
     flex: 1;
+    padding-left: 10px;
+    padding-top: 62px;
 }
 
-.container-left, .container-right {
-    padding-top: 48px;
-}
 
 .aside{
     height: 26%;
@@ -252,7 +251,7 @@ form {
 
 .top_left, .bottom_left{
     height: 38%;
-    margin-bottom: 17.5%;
+    margin-bottom: 21%;
 }
 
 .box1 p {
@@ -289,6 +288,7 @@ form {
 }
 
 footer {
+    margin-bottom: 14px;
     height: 255px;
     width: 100%;
 }
@@ -414,9 +414,7 @@ footer {
      flex-wrap: wrap;  
  }
  /* about */
- .tp_lft_about  {
-    height: 45%;
- }
+
 
 .line_about {
     width: 870px;
@@ -433,20 +431,18 @@ footer {
 }
 
 .article-photo {
-    margin: 53px 25px 18px 0;
     float: left;
-    margin-top: 17px;
 }
 
 .list-box1 {
-    float: left;
-    margin-left: 73px;
-    margin-top: 18px;
+    float: left;  
+    margin-left: 16px;   
+    margin-top: 12px;
 }
 .list-box2 {
-    float: right;
-    margin-right: 257px;
-    margin-top: 19px;
+    float: right;  
+    margin-right: 277px; 
+    margin-top: 12px;
 }
 
 .list_about li{
@@ -455,7 +451,7 @@ footer {
 }
 
 .rt-upper-col {
-    margin: 5px 0 0 15px;
+    margin: 5px 0 0 2px;
     width:240px;
     height: 140px;
 }
@@ -487,10 +483,10 @@ footer {
     margin: 0 39px 0 39px;
 }
 .content-box-4 h1 {
-    margin-top: 110px;
+    margin-top: 90px;
 }
-.main_about {
-    height: 1300px;
+.main_flex {
+    display: flex;
 }
 .rt-dwn-col {
     margin: 10px 0px -15px 3px;
@@ -548,25 +544,47 @@ footer {
     margin-top: 15px;
 }
 
-/* contact form */
+ /* about end */
 
-.content_box {
-    width: 300px;
-    height: 500px;
+ /* contacts */
+
+.contact_container{
     background-color: white;
-    padding-top: 43px;
-    padding-left: 22px;
+    display: flex;
+}
+.cc_box {
+    height: 500px;
 }
 
-input {
-    position: relative;
-    left: -134px;
-    top: 48px;
-    width: 198px;
+.left_box {
+    flex:3;
+    background-color: rgba(0, 128, 0, 0.507);
+}
+ .middle_box {
+    flex:1;
+    background-color: rgba(128, 15, 0, 0.507);
+}
+
+.right_box {
+    flex:1;
+    background-color: rgba(119, 128, 0, 0.507);
 }
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+ /* contacts end*/
 
 
 
