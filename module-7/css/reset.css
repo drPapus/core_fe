@@ -84,9 +84,9 @@ border-collapse: collapse;
 caption, th {
 text-align: left;
 }
-td, th {
+/* td, th {
 padding: 0;
-}
+} */
 address, blockquote, h1, h2, h3, h4, h5, h6, fieldset, p, ol, ul {
 margin: 0;
 padding: 0;

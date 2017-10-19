@@ -294,7 +294,7 @@ footer {
 }
 
 .prefooter{
-    height: 46%;
+    height: 134px;
     width: 100%;
     background-color: #30455b;
     font-family: 'Open Sans Condensed', sans-serif;
@@ -546,13 +546,13 @@ footer {
 
  /* about end */
 
+
  /* contacts */
 
 .contact_container{
     color:#666565;
     background-color: white;
     display: flex;
-    justify-content:space-around;
 }
 .cc_box {
     height: 717px;
@@ -581,13 +581,50 @@ footer {
     margin-left: 61px;
     margin-top: 55px;
 }
-.middle_box p {
+.middle_box {
     font: 14px/17px Arial , sans-serif;
 }
-.middle_box p:first-child {
-    padding-top: 174px;
-    margin-left: 10px;
+
+.table {
+    margin-top: 173px;
 }
+.row {
+    line-height: 18px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-between;
+}
+.cell {
+    margin-left: 8px;
+}
+.table>.cell  {
+    margin-bottom: 22px;
+}
+
+.row .cell:nth-child(even) {
+    margin-right: 20px;
+}
+.row .cell:last-child {
+    margin-top: 3px;
+}
+.row span{
+        color: red;
+}
+
+.table:last-child {
+    margin-top: 45px;
+}
+
+/* contacts end*/
+
+/* right_box */
+
+.right_box .block_caption {
+    margin-left: 8px;
+}
+
+/* right_box end*/
+
 
 
 
