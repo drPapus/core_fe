@@ -560,16 +560,15 @@ footer {
 
 .left_box {
     flex:1.45;
-    background-color: rgba(0, 128, 0, 0.507);
 }
+    
  .middle_box {
     flex:0.65;
-    background-color: rgba(128, 15, 0, 0.507);
+
 }
 
 .right_box {
     flex:0.8;
-    background-color: rgba(119, 128, 0, 0.507);
 }
 
 .contact_container .block_caption {
@@ -624,23 +623,25 @@ footer {
 
 .right_box form input, textarea {
     text-transform: uppercase;
-    border-radius: 0;
     margin-bottom:16px;
     margin-left: 10px;
     width: 206px;
     height: 23px;
+    border: 1px solid rgb(131, 121, 121);
 }
 .right_box form textarea {
     width: 208px;
     height: 230px;
+    margin-bottom: 25px;
 }
 .right_box form input:nth-child(5) {
     width: 82px;
-    margin-left: 51px;
+    margin-left: 45px;
     margin-top: 5px;
     margin-right: 7px;
     border-radius: 5px;
     height: 28px;
+    text-transform: none;
 }
 .right_box form input:nth-child(6) {
     width: 82px;
@@ -649,6 +650,7 @@ footer {
     margin-right: 7px;
     border-radius: 5px;
     height: 28px;
+    text-transform: none;
 }
 
 
