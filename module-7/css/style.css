@@ -656,6 +656,36 @@ footer {
 
 /* contacts end*/
 
+/* tours */
+
+.tours_right_cptn {
+    padding-left: 9px;
+    padding-top: 104px;
+}
+
+.brows_tour select{
+    width: 213px;
+    height: 26px;
+    border-radius: 0px;
+    border: 1px solid gray;
+    font-size: 10px;
+    margin-top: -12px;
+
+}
+.p {
+    font-size: 10px;
+    margin-top: 47px;
+}
+.tours_right_cptn p{
+    margin-top: 49px;
+    font-size: 10px;
+}
+.btn_brows_tour input{
+    width: 65px;
+    height: 23px;
+    font-size: 12px;
+    margin-bottom: 23px;
+}
 
 
 
@@ -671,7 +701,7 @@ footer {
 
 
 
- /* contacts end*/
+
 
 
 
