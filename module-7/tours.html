@@ -17,7 +17,7 @@
    <div class="block-menu">
    <ul class="menu">
      <li class="menu_item"><a href="http://">home</a></li>
-     <li class="menu_item"><a href="http://">about</a>
+     <li class="menu_item"><a href="http://about.html">about</a>
       <ul class="submenu">
         <li class="submenu_item"><a href="http://">agency</a></li>
         <li class="submenu_item"><a href="http://">news</a></li>
@@ -26,9 +26,9 @@
     </li>
      <li class="menu_item"><a href="http://">gallery</a></li>
      <li id="logo"><a href="/">journey</a></li>
-     <li class="menu_item"><a href="http://">tours</a></li>
-     <li class="menu_item"><a href="http://">blog</a></li>
-     <li class="menu_item"><a href="http://">contacts</a></li>
+     <li class="menu_item"><a href="http://tours.html">tours</a></li>
+     <li class="menu_item"><a href="http://blog.html">blog</a></li>
+     <li class="menu_item"><a href="http://contacts.html">contacts</a></li>
    </ul>
   </div>
  </header>
@@ -38,7 +38,7 @@
         <div class="container-right tours_right_cptn">
           <div class="caption"><h1>browse</h1></div>
 
-          <p>Browse by Tour Operator</p>
+          <p class="tour">Browse by Tour Operator</p>
           <br>
           <form class="brows_tour" action="http://info.php" method="post" name="drop_down_box">
             <select name="menu" size="1">
@@ -51,6 +51,55 @@
             </form> 
 
             <div class="caption"><h1>search</h1></div>
+
+            <p class="tour">All Tour Operators</p>
+            
+            <p class="all_trs">Destination</p>
+
+            <form class="search_dist" action="http://info.php" method="post" name="drop_down_box">
+              <select name="menu" size="1">
+              <option selected="selected" value="first">Первая позиция</option>   
+              <option value="second">Вторая позиция</option>
+              <option value="third">Третья позиция</option>
+              <option value="fourth">Четвертая позиция</option>
+              </select>
+
+
+              <p class="all_trs" >Departing</p>
+
+              <form class="search_dist" action="http://info.php" method="post" name="drop_down_box">
+                <select name="menu" size="1">
+                <option value="first">Первая позиция</option>
+                <option selected="selected" value="second">Вторая позиция</option>
+                <option value="third">Третья позиция</option>
+                <option value="fourth">Четвертая позиция</option>
+                </select>
+
+
+                <p class="all_trs">Price</p>
+
+                <form class="search_dist" action="http://info.php" method="post" name="drop_down_box">
+                  <select name="menu" size="1">
+                  <option value="first">Первая позиция</option>   
+                  <option selected="selected" value="second">Вторая позиция</option>
+                  <option value="third">Третья позиция</option>
+                  <option value="fourth">Четвертая позиция</option>
+                  </select>
+
+
+                <p class="all_trs">Duration</p>
+
+                <form class="search_dist" action="http://info.php" method="post" name="drop_down_box">
+                  <select name="menu" size="1">
+                  <option value="first">Первая позиция</option>   
+                  <option selected="selected" value="second">Вторая позиция</option>
+                  <option value="third">Третья позиция</option>
+                  <option value="fourth">Четвертая позиция</option>
+                  </select>
+                  <p class="btn_brows_tour"><input type="submit" value="Search"></p>
+                  </form> 
+
+
         </div>
       </div>
 
