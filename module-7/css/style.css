@@ -257,17 +257,22 @@ main {
 }
 
 .post_button {
+    position: absolute;
     display: block;
-    transform: translateX(487%);
-    margin: 2% 1%;  
-    width: 9%;
-} 
-.post_button {
+    /* transform: translateX(487%); */
     width:64px;
     height: 22px; 
     border: 2px solid grey;
     border-radius: 5px;
     font-size: 12px;
+    left: 535px;
+    
+}
+
+ .post_button:hover {
+    width:128px;
+    height: 44px; 
+    transition: .6s ease-out;
 }
 
 .top_left, .bottom_left{
@@ -642,7 +647,7 @@ footer {
     margin-bottom: 53px;
 }
 
-.right_box form input, textarea, {
+.right_box form input, textarea {
     text-transform: uppercase;
     margin-bottom:16px;
     margin-left: 10px;
@@ -726,6 +731,17 @@ footer {
     margin-top: 19px;
     margin-bottom: 4px;
 }
+
+.rotate:hover {
+    transform: rotate(45deg);
+}
+
+.blog_text:hover {
+    transition-delay: 0.6s;
+    transition: .6s ease-out;
+    color:red;
+}
+
 
 
 

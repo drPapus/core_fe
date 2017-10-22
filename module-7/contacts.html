@@ -86,7 +86,8 @@
                 <div class="block_caption cpt"><h1>contact us</h1></div>
 
                 <form action="/action_page.php">
-                  <input type="text" value="name">
+
+                  <input type="text" value="name" required oninvalid="setCustomValidity('*This field is required')">
                  
                   <input type="email" name="email" value="email">
                  
