@@ -1,0 +1,29 @@
+.grey {
+    background-color: grey;
+    min-height: 400px;
+    max-width: 768px;
+    min-width: 480px;
+    margin: 0 auto;
+}
+
+.row {
+    display: flex;
+    flex-flow: row wrap;
+    min-height:380px;
+    background-color: rgba(243, 98, 98, 0.774); 
+}
+
+.content {
+    min-width: 500px;
+    height: 200vh;
+    background-color:yellow;
+}
+.right-sidebar {
+    min-width: 312px;
+    height: 200vh;
+    background-color:green;
+}
+
+
+[class*="col-"] { padding: 0 0.4rem; }
+
