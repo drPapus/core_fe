@@ -7,7 +7,7 @@ ul {
     list-style: none;
 }
 
-header a, h1, .cpt {
+header  a, h1, .cpt, .grey a{
     font-family: 'Pathway Gothic One', sans-serif;
     text-transform: uppercase;
     font-size: 32px;
@@ -753,8 +753,6 @@ footer {
 
 .grey {
     background-color: grey;
-    /* max-width: 768px;
-    min-width: 480px; */
     margin: 0 auto;
 
 }
@@ -797,15 +795,26 @@ footer {
     .beige {
         height: 4rem;
         width: 39rem;
-        margin: 5px auto;
+        margin: 3px auto;
+        z-index: 0;
     }
     .menu .menu_item {
         display: inline;
-        margin-left: 40px;
+        margin-left: 31px;
         margin-right: 28px;
     }
+
+    .menu_item:hover>.submenu {
+        display: block;
+        background: #FFFFFF;
+      }
+
+  
     .menu{
         padding-top: 11px;
+    }
+    .grey a {
+        font-size: 25px;
     }
 
     #logo {
@@ -831,6 +840,49 @@ footer {
         box-shadow: 0 0 10px rgba(0,0,0,0.5); 
     }
     
+    .submenu {
+      z-index: 2;
+      display: none;
+      position: absolute;
+      list-style: none;
+      border-radius: 5px;
+      color: grey;
+      bottom: 15px;
+      width: 65px;
+      height: 85px;
+      left: 352px;
+      top: 48px;
+    }
+    
+    .submenu a {
+        font-size: 20px;
+        position: relative;
+        left: -28px;
+        top: 10px;
+    }  
+   
+    .submenu::after, .submenu::before {
+        bottom: 100%;
+        left: 50%;
+        border: solid transparent;
+        content: " ";
+        height: 0;
+        width: 0;
+        position: absolute;
+        pointer-events: none;
+    }
+    .submenu::after {
+        border-color: rgba(136, 183, 213, 0);
+        border-bottom-color: #FFFFFF;
+        border-width: 3px;
+        margin-left: -3px;
+    }
+    .submenu::before {
+        border-color: rgba(194, 225, 245, 0);
+        border-bottom-color: #FFFFFF;
+        border-width: 3px;
+        margin-left: -3px;
+    }
    
 
     }
