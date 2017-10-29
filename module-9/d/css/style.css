@@ -1,6 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=Pathway+Gothic+One');
 @import url('https://fonts.googleapis.com/css?family=Dorsa');
 @import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300');
+
+
 ul {
     list-style: none;
 }
@@ -749,10 +751,58 @@ footer {
     margin: 0 auto;
 }
 
+.grey {
+    background-color: grey;
+    /* max-width: 768px;
+    min-width: 480px; */
+    margin: 0 auto;
+
+}
+
 .row {
     display: flex;
     flex-flow: row wrap;
+
 }
+
+.content {
+    height: 30vh;
+    margin:3px;
+}
+.yellow {
+    height: 0;
+    background-color:yellow;
+}
+
+.pink {
+    background-color: pink;
+}
+.green {
+    background-color: green;
+}
+.beige {
+    background-color: rgb(231, 231, 137);
+    
+}
+
+@media (max-width: 990px) {
+    .pink {
+        display: none;
+    }
+    .yellow {
+        height: 12rem;
+    }
+    .beige {
+        height: 4rem;
+    }
+
+    }
+
+
+
+[class*="col-"] { padding:0 0.4rem; }
+
+
 
 
 

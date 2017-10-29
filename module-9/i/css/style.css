@@ -1,0 +1,38 @@
+.grey {
+    background-color: grey;
+    /* max-width: 768px;
+    min-width: 480px; */
+    margin: 0 auto;
+}
+
+.row {
+    display: flex;
+    flex-flow: row wrap;
+    min-height:200px;
+}
+
+.content {
+    height: 20vh;
+    background-color:yellow;
+    margin:10px;
+}
+.pink {
+    background-color: pink;
+}
+.green {
+    background-color: green;
+}
+.beige {
+    background-color: rgb(231, 231, 137);
+}
+
+@media (max-width: 990px) {
+    .pink {
+        display: none;
+    }
+    }
+
+
+
+[class*="col-"] { padding:0 0.4rem; }
+
