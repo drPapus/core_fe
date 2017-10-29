@@ -22,7 +22,7 @@ header{
     margin-bottom: 95px;
 }
 #logo a{
-    line-height: 139px;
+    line-height: 110px;
     display: block;
     width:140px;
     height: 140px;  
@@ -758,7 +758,11 @@ footer {
     display: flex;
     flex-flow: row wrap;
 }
-
+.menu{
+    margin-top: 96px;
+    margin-left: 0px;
+    margin-right: 10px;
+}
 
 
 
