@@ -758,17 +758,8 @@ footer {
     display: flex;
     flex-flow: row wrap;
 }
-.col-md-4, .col-md-2{
-    background-color: grey;
-    min-height: 20rem;
-}
 
-.left_btns {
-    left: 2.5rem;
-}
-.right_btns {
-    right: 3rem;
-}
+
 
 
 
