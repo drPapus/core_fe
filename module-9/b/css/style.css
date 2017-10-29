@@ -8,7 +8,7 @@
 .row {
     display: flex;
     flex-flow: row wrap;
-    min-height:400px;
+    min-height:220px;
 }
 
 .content {

@@ -35,17 +35,12 @@ header{
     font-size: 59px;
     position: relative;
     bottom: 51px;
-    left: 2px;
+    left: 3px;
 }
 #logo a:hover{
     box-shadow: 0 0 10px rgba(0,0,0,0.5); 
 }
 
-.block-menu {
-    position: relative;
-    top: 96px;
-    left: 71px;
-}
 
 header ul {
     margin-left: 27px;
@@ -757,11 +752,6 @@ footer {
 .row {
     display: flex;
     flex-flow: row wrap;
-}
-.menu{
-    margin-top: 96px;
-    margin-left: 0px;
-    margin-right: 10px;
 }
 
 
