@@ -7,13 +7,19 @@ ul {
     list-style: none;
 }
 
-header  a, h1, .cpt, .grey a{
+
+
+header a, h1, .navbar a {
     font-family: 'Pathway Gothic One', sans-serif;
     text-transform: uppercase;
-    font-size: 32px;
+    font-size: 29px;
+    color: #fff;
+    text-decoration: none;
 }
 body {
     background: url("../img/bg.png") no-repeat;
+    background-color: rgba(190, 154, 119, 0.96);	
+    height: 100%;
 }
 
 #wrapper {
@@ -21,10 +27,13 @@ body {
     width: 75.5%;
 }
 header{
-    margin-bottom: 95px;
+	position: relative;
+	width: var(--main-width);
+	padding-top: 96px;
+	height: 237px;
 }
-/* #logo {
-    line-height: 110px;
+.logo {
+    line-height: 139px;
     display: block;
     width:140px;
     height: 140px;  
@@ -37,14 +46,17 @@ header{
     font-size: 59px;
     position: relative;
     bottom: 51px;
-    left: 3px;
-} 
+    left: 2px;
+}
 #logo a:hover{
     box-shadow: 0 0 10px rgba(0,0,0,0.5); 
 }
-*/
+.menu-row {
+	margin-left: 38px;
+    margin-right: 38px;
+}
 
-/* header ul {
+header ul {
     margin-left: 27px;
 }
 header ul {
@@ -127,7 +139,7 @@ header li a{
 	border-bottom-color: #FFFFFF;
 	border-width: 3px;
 	margin-left: -3px;
-} */
+}
 
 main {
     background-color: white;
@@ -611,7 +623,7 @@ footer {
     margin-top: 173px;
 }
 .row {
-    line-height: 18px;
+    line-height: 35px;
     display: flex;
     flex-wrap: wrap;
     justify-content:space-between;
@@ -741,180 +753,6 @@ footer {
 
 
 
-/* BP */
 
-.container {
-    height: 230px;
-    background-color: rgba(250, 76, 76, 0.726);
-    max-width: 102.6rem;
-    min-width: 60rem;
-    margin: 0 auto;
-}
-
-.grey {
-    background-color: grey;
-    margin: 0 auto;
-
-}
-
-.row {
-    display: flex;
-    flex-flow: row wrap;
-
-}
-
-.content {
-    height: 30vh;
-    margin:3px;
-}
-.yellow {
-    height: 0;
-    background-color:yellow;
-}
-
-.pink {
-    background-color: pink;
-}
-.green {
-    background-color: green;
-}
-.beige {
-    background-color: rgb(231, 231, 137);
-    
-}
-
-@media (max-width: 990px) {
-    .pink {
-        display: none;
-    }
-    .yellow {
-        height: 12rem;
-        width: 15rem;
-        margin: 5px auto;
-    }
-    .beige {
-        height: 4rem;
-        width: 39rem;
-        margin: 3px auto;
-        z-index: 0;
-    }
-    .menu .menu_item {
-        display: inline;
-        margin-left: 31px;
-        margin-right: 28px;
-    }
-
-    .menu_item:hover>.submenu {
-        display: block;
-        background: #FFFFFF;
-      }
-
-  
-    .menu{
-        padding-top: 11px;
-    }
-    .grey a {
-        font-size: 25px;
-    }
-
-    #logo {
-        line-height: 98px;
-        display: block;
-        width: 101px;
-        height: 101px;
-        background-color: #ffffff;
-        border-radius: 70px;
-        font-family: 'Dorsa', sans-serif;
-        text-transform: uppercase;
-        text-align: center;
-        color: #263555;
-        font-size: 44px;
-        position: relative;
-        bottom: 51px;
-        left: 33px;
-        top: 17px;
-        text-decoration: none;
-    }
-    
-     #logo:hover{
-        box-shadow: 0 0 10px rgba(0,0,0,0.5); 
-    }
-    
-    .submenu {
-      z-index: 2;
-      display: none;
-      position: absolute;
-      list-style: none;
-      border-radius: 5px;
-      color: grey;
-      bottom: 15px;
-      width: 65px;
-      height: 85px;
-      left: 352px;
-      top: 48px;
-    }
-    
-    .submenu a {
-        font-size: 20px;
-        position: relative;
-        left: -28px;
-        top: 10px;
-    }  
-   
-    .submenu::after, .submenu::before {
-        bottom: 100%;
-        left: 50%;
-        border: solid transparent;
-        content: " ";
-        height: 0;
-        width: 0;
-        position: absolute;
-        pointer-events: none;
-    }
-    .submenu::after {
-        border-color: rgba(136, 183, 213, 0);
-        border-bottom-color: #FFFFFF;
-        border-width: 3px;
-        margin-left: -3px;
-    }
-    .submenu::before {
-        border-color: rgba(194, 225, 245, 0);
-        border-bottom-color: #FFFFFF;
-        border-width: 3px;
-        margin-left: -3px;
-    }
-   
-
-    }
-
-
-
-[class*="col-"] { padding:0 0.4rem; }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- 
 
 
