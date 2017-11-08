@@ -9,8 +9,9 @@
 :root {
     font-size: calc(1vw + 1vh + .5vmin);
   }
+
   body {
-    font: 0.7em/1.6 "Open Sans", sans-serif;
+    font: 1em/1.6 "Open Sans", sans-serif;
   }
 
 
@@ -23,7 +24,7 @@ background-image: url("../img/bg.png");
 background-repeat: no-repeat;
 height: 100%;
 color: #4e5050;
-font: 0.7em/19px Arial;
+font: 0.6em/19px Arial;
 }
 
 header {
