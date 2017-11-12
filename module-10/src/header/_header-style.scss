@@ -72,6 +72,7 @@ ul {
     position: relative;
     margin: 0 auto;
     top: -0.27em;
+    right: 27px;
 }
 .row-header {
     margin-left: 30px;
@@ -82,19 +83,23 @@ ul {
 }
 
 .nav-left, .nav-right {
-    height: 50px;
+    line-height: 70px;
     background-color: rgba(0, 0, 0, 0.616);
     margin-top:5em;
+}
+.nav-header{
+    position: relative;
+    left:25px;
 }
 
 .menu_item {
     position: relative;
     display: inline-block;
-    margin-right: 10px
+    margin-right: 3em;
 }
 
-header li a{
-    font-size: 29px;
+.row-header li a{
+    font-size: 1.8em;
 }
 
 .menu_item > a,
