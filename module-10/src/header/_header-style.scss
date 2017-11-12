@@ -1,0 +1,17 @@
+ .logo {
+    line-height: 139px;
+    display: block;
+    width:140px;
+    height: 140px;  
+    background-color: #ffffff;
+    border-radius: 70px;
+    font-family: 'Dorsa', sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    color:#263555;
+    font-size: 59px;
+    position: relative;
+}
+#logo a:hover{
+    box-shadow: 0 0 10px rgba(0,0,0,0.5); 
+}
