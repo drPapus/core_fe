@@ -2,18 +2,18 @@
 @import url('https://fonts.googleapis.com/css?family=Dorsa');
 @import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300');
 
-:root {
-  font-size: calc(1vw + 1vh + .5vmin);
-}
+// :root {
+//   font-size: calc(1vw + 1vh + .5vmin);
+// }
 
-body {
-  font: 1em/1.6 "Open Sans", sans-serif;
-}
+// body {
+//   font: 1em/1.6 "Open Sans", sans-serif;
+// }
 
 
 .container {
-  max-width: 43.7em;
-  min-width: 20em;
+  max-width: 64em;
+  min-width: 19em;
   margin: 0 auto;
 }
 
@@ -24,8 +24,8 @@ body {
 
 .col-1 { width: 8.333%; }
 .col-2 { width: 16.666%; }
-.col-3 { width: 25%; }
-.col-4 { width: 33.333%; }
+.col-3 { width: 25%;  background-color: rgba(255, 0, 0, 0.548);}
+.col-4 { width: 33.333%;  background-color: rgba(197, 28, 28, 0.548);}
 .col-5 { width: 41.666%; }
 .col-6 { width: 50%; }
 .col-7 { width: 58.333%; }
@@ -42,7 +42,9 @@ body {
   margin-left: auto;
   margin-right: auto;
   background-color: grey;
-  height: 13.7em; }
+  height: 14.3em; 
+//   background-color: yellow;
+}
  
  .logo {
     line-height: 139px;
@@ -57,7 +59,17 @@ body {
     color:#263555;
     font-size: 59px;
     position: relative;
+    margin: 0 auto;
+    top: -0.27em;
 }
 #logo a:hover{
     box-shadow: 0 0 10px rgba(0,0,0,0.5); 
 }
+
+.nav-right {
+
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {}
+@media screen and (max-width: 768px) {}
+@media screen and (max-width: 480px) {}
